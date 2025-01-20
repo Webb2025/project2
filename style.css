@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+color: darkblue;}
+p{
+    margin: 30px;
+    padding: 0px;
+    border: solid 5px salmon;
+    background-color: rgb(72, 209, 204);
+}
+h2{
+    margin: 60px;
+    padding: 5px;
+    background-color: #a52a2a;
+    text-align: center;
+
+}
+body{
+    background: rgb(148,8,79);
+    background: linear-gradient(90deg, rgba(148,8,79,1) 0%, rgba(171,170,183,1) 100%);
+}
+#nine{
+    background-color: aquamarine;
+    border: rgba(darkred, aquamarine, salmon, alpha);
+}
+.Div0ne{
+    margin: 30px;
+    padding: 5px;
+    background-color: #a52a2a;
+    text-align: center;
+}
+.div1ne{
+    margin: 30px;
+    padding: 5px;
+    background-color: rgb(120, 207, 207);
+    text-align: center;
+}

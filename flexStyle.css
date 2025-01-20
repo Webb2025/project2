@@ -1,0 +1,130 @@
+
+
+.Flex-Container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    background-color: aquamarine;
+    border: solid 2px brown;
+    height: 300px;
+}
+body{
+    background-color: bisque;
+
+}
+h1{
+    text-align: center;
+    color: #999;
+}
+.Flex-Container > div{
+  
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    border: solid 5px aliceblue;
+}
+#div1 {
+    background-color: brown;
+    align-self: flex-end;
+    height: 150px;
+}
+#div2 {
+    background-color: rgb(150, 30, 30);
+    height: 150px;
+}
+#div3 {
+    background-color: rgb(140, 25, 25);
+    align-self: flex-end;
+    height: 150px;
+}
+#div4 {
+    background-color: rgb(130, 20, 20);
+    height: 150px;
+}
+#div5 {
+    background-color: rgb(120, 15, 15);
+    align-self: flex-end;
+    height: 150px;
+}
+#div6 {
+    background-color: rgb(110, 10, 10);
+    height: 150px;
+}
+h4{
+    text-align: center;
+    color: #383232;
+}
+.Flex-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    border:solid 5px black;
+    height: 500px;
+}
+#left-div1{
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
+}
+#right-div2{
+    height: 300px;
+    width: 300px;
+    border: solid 5px black;
+    background-image: url(Poster_F.webp);
+    background-size: 300px 300px;/*this is width and height of image inside right-div2*/
+}
+#img1{
+    height:100%;
+    width: 100%;
+}
+#para1{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+.Flex-Container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(118, 47, 47);
+    border:solid 3px black;
+    height: 500px;
+}
+#clockwise-div{
+    height: 200px;
+    width: 200px;
+    border: solid 5px black;
+}
+#counterclockwise-div{
+    height: 200px;
+    width: 200px;
+    border: solid 5px black;
+}
+#perfectspin{
+    height: 200px;
+    width: 200px;
+    border: solid 5px black;
+}
+#video-1{
+    height:100%;
+    width: 100%;
+}
+#img3{
+    height:100%;
+    width: 100%;
+}
+#video-2{
+    height:100%;
+    width: 100%;
+}
