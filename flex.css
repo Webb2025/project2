@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('Delivery-truck-flat-design-Graphics-9817790-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 204, 128, 0.9); /* Light orange with slight transparency */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 400px; /* Increased width */
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 2px solid #ff9800;
+    border-radius: 5px;
+}
+
+.map {
+    background-color: #ffb74d;
+    height: 150px; /* Increased height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-box {
+    background-color: #ffb74d;
+    width: 48%;
+    padding: 15px; /* Increased padding */
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.option-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.order-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 15px; /* Bigger button */
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.order-btn:hover {
+    background-color: #e68900;
+}
