@@ -1,0 +1,15 @@
+.FirstList {
+    list-style-type: square;
+    background: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    line-height: 170%;
+    padding: 20px;
+    width: 20%;
+    margin-left: 20px;
+}
+.FirstList li {
+    background-color: rgb(207, 253, 238);
+    padding: 10px;
+    margin: 0px 0px 5px 20px;
+}
