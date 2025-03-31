@@ -1,170 +1,130 @@
 body {
-    background-color: darksalmon;
+    background-color: lightgray;
 }
 .Parent-grid {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(17,1fr);
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(10,1fr);
     gap: 5px;
     height: 200vh;
 }
 #grid1 {
-    grid-column: 1 / 3;
-    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     background-color: aquamarine;
     border: solid 3px;
 }
-#Ica {
+#Hamburger {
     height: 100%;
     width: 100%;
 }
 #grid2 {
-    grid-column: 3 / 5;
+    grid-column: 2 / 4;
     grid-row: 1 / 4;
     background-color: firebrick;
     border: solid 3px;
 }
-#Coop {
+#Bottarga {
     height: 100%;
     width: 100%;
 }
 #grid3 {
-    grid-column: 5 / 6;
-    grid-row: 1 / 4;
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
     background-color: bisque;
     border: solid 3px;
 }
-#Hemköp {
+#FishTaco {
     height: 100%;
     width: 100%;
 }
 #grid4 {
-    grid-column: 1 / 3;
-    grid-row: 4 / 11;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
     background-color: aqua;
     border: solid 3px;
 }
-#Sub {
+#FriedChicken {
     height: 100%;
     width: 100%;
 }
 #grid5 {
-    grid-column: 3 / 6;
-    grid-row: 4 / 8;
+    grid-column: 5 / 6;
+    grid-row: 1 / 4;
     background-color: brown;
     border: solid 3px;
 }
-#Max {
-    height: 100%;
-    width: 100%;
-}
-#Maxb {
+#Sushi {
     height: 100%;
     width: 100%;
 }
 #grid6 {
-    grid-column: 3 / 5;
-    grid-row: 8 / 11;
+    grid-column: 1 / 4;
+    grid-row: 4 / 6;
     background-color: blue;
     border: solid 3px;
-    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2Vwd2cyZHdvYWdsaXM4eHc0ZzgyemV3ODFod2M5djJxZHBmOXNycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7JzHsh3UTip20/giphy.gif);
+}
+#FriedRice {
+    height: 100%;
+    width: 100%;
 }
 #grid7 {
-    grid-column: 5 / 6;
-    grid-row: 8 / 11;
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
     background-color: blueviolet;
     border: solid 3px;
 }
-#Öo {
+#Pierogi {
     height: 100%;
     width: 100%;
 }
 #grid8 {
-    grid-column: 1 / 2;
-    grid-row: 11 / 14;
+    grid-column: 1 / 4;
+    grid-row: 6 / 10;
     background-color: burlywood;
     border: solid 3px;
 }
-#Tesco {
+#Ribs {
     height: 100%;
     width: 100%;
 }
 #grid9 {
-    grid-column: 2 / 3;
-    grid-row: 11 / 14;
+    grid-column: 4 / 6;
+    grid-row: 6 / 8;
     background-color: violet;
     border: solid 3px;
 }
-#Nandos {
+#Bacon {
     height: 100%;
     width: 100%;
 }
 #grid10 {
-    grid-column: 3 / 4;
-    grid-row: 11 / 14;
+    grid-column: 4 / 6;
+    grid-row: 8 / 11;
     background-color: black;
     border: solid 3px;
 }
-#Dominos {
+#Soup {
     height: 100%;
     width: 100%;
 }
 #grid11 {
-    grid-column: 4 / 5;
-    grid-row: 11 / 14;
+    grid-column: 1 / 4;
+    grid-row: 10 / 11;
     background-color: salmon;
     border: solid 3px;
 }
-#Lidl {
+#IceCream {
     height: 100%;
     width: 100%;
 }
 #grid12 {
-    grid-column: 5 / 6;
-    grid-row: 11 / 14;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
     background-color: darkblue;
     border: solid 3px;
 }
-#Goat {
-    height: 100%;
-    width: 100%;
-}
-#grid13 {
-    grid-column: 1 / 6;
-    grid-row: 14 / 16;
-    background-color: fuchsia;
-    border: solid 3px;
-}
-#Ad {
-    height: 100%;
-    width: 100%;
-}
-#grid14 {
-    grid-column: 1 / 6;
-    grid-row: 16 / 18;
-    background-color: red;
-    border: solid 3px;
-}
-#Popeyes {
-    height: 100%;
-    width: 100%;
-}
-#grid15 {
-    grid-column: 6 / 7;
-    grid-row: 1 / 9;
-    background-color: gold;
-    border: solid 3px;
-}
-#Wendy {
-    height: 100%;
-    width: 100%;
-}
-#grid16 {
-    grid-column: 6 / 7;
-    grid-row: 9 / 18;
-    border: solid 3px;
-}
-#Kfc {
+#Cake {
     height: 100%;
     width: 100%;
 }
