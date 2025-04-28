@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <title>FlexBox Layout</title>
-        <link 
-        rel="stylesheet"
-        type="text/css"
-        href="flexStyle.css"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chef's Piece - Gourmet Food Store</title>
+    <link rel="stylesheet" type="text/css" href="flexStyle.css" />
 </head>
 <body>
-<h1>Flexible Boxes</h1>
-<div class="flexcontainer">
-    <div id="div1"><p>1</p></div>
-    <div id="div2"><p>2</p></div>
-    <div id="div3"><p>3</p></div>
-    <div id="div4"><p>4</p></div>
-    <div id="div5"><p>5</p></div>  
-    <div id="div6"><p>6</p></div>  
-    <div id="div7"><p>7</p></div> 
-</div>
+    <header>
+        <h1>Chef's Piece</h1>
+        <p>Your Gourmet Food Destination</p>
+    </header>
 
+    <main>
+        
+        <section class="food-gallery">
+            <div class="flex-container">
+                <div class="food-item">
+                    <img src="PHaggis.jpg" alt="Haggis" class="food-image">
+                    <p class="food-description">Traditional Haggis</p>
+                </div>
+                <div class="food-item">
+                    <img src="output.jpg" alt="Burritos" class="food-image">
+                    <p class="food-description">Hearty Burritos</p>
+                </div>
+                <div class="food-item">
+                    <img src="Desolate.jpg" alt="Chicken" class="food-image">
+                    <p class="food-description">Grilled Chicken</p>
+                </div>
+            </div>
+            <div class="flex-container1">
+                <div class="food-item2">
+                    <img src="pizza.jpg" alt="Pizza" class="food-image">
+                    <p class="food-description">Gourmet Pizza</p>
+                </div>
+                <div class="food-item2">
+                    <img src="moussaka.jpg" alt="Moussaka" class="food-image">
+                    <p class="food-description">Authentic Moussaka</p>
+                </div>
+                <div class="food-item2">
+                    <img src="Froglegs.jpg" alt="Fried Frog Legs" class="food-image">
+                    <p class="food-description">Crispy Frog Legs</p>
+                </div>
+            </div>
+        </section>
 
-<div class="flexcontainer3">
-    <div id="left-div">
+        <!-- Featured Section -->
+        <section class="featured-section">
+            <div class="featured-item">
+                <iframe id="gordon-ramsay" width="560" height="315" src="https://www.youtube.com/embed/Zw8bFyp9C5g?si=PVLPqkoctt9pua2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="featured-item">
+                <p class="featured-text">Discover the finest flavors from around the world.</p>
+            </div>
+        </section>
+        
+        <section class="video-section">
+            <h2>Explore Our Kitchen</h2>
+            <div class="flex-container">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/6V9tfGcm76U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <img id="img1" src="pexels-abbykihano-230129.jpg" alt="kjdfjkdh"/>
-
-    </div>
-    
-    
-  <div id="right-div"><p id="para1">"ghjrtgsyujjhgfdsa"</p></div>
-
-
-
-</div>
-
-
-
-   
-
+    <footer>
+        <p>&copy; 2023 Chef's Piece. All rights reserved.</p>
+    </footer>
 </body>
 </html>
