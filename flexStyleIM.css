@@ -1,6 +1,5 @@
-/* General Styles */
 body {
-    background-color: #ffe5b4; /* Warm orange background */
+    background-color: #ffe5b4;
     font-family: 'Arial', sans-serif;
     color: #4a3f35;
     margin: 0;
@@ -44,7 +43,7 @@ p {
     transition: background-color 0.5s ease-in-out, transform 0.3s;
 }
 .food-item:hover {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     transform: scale(1.1);
 }
 .flex-container1 {
@@ -63,7 +62,7 @@ p {
     transition: background-color 0.5s ease-in-out, transform 0.3s;
 }
 .food-item2:hover {
-    background-color: aliceblue;
+    background-color: antiquewhite;
     transform: scale(1.1);
 }
 .food-image {
@@ -90,11 +89,6 @@ p {
 .featured-item {
     max-width: 400px;
     text-align: center;
-}
-
-.featured-image {
-    width: 100%;
-    border-radius: 10px;
 }
 
 .featured-text {
