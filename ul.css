@@ -1,0 +1,49 @@
+.unorderd {
+list-style-type:square;
+background: black;
+font-family: c;
+font-size: 1, 3ep;
+line-height: 170%;
+padding: 20px;
+width: 20%;
+margin-left: 20px;
+}
+
+.unorderd li {
+background-color: blueviolet;
+padding: 5px;
+margin: 0px 0px 5px 20px;
+}
+
+
+.unorderd ul {
+list-style-type: circle;
+background: aqua;
+padding: 5px;
+margin-left: 0px;
+}
+
+
+.ordered{
+background:cornflowerblue;
+padding: 20px;
+width: 20%;
+margin-left: 20px;
+font-family:"Brush Script MT", cursive;
+font-size: 1.3em;
+line-height: 170%;
+}
+
+.ordered li {
+background: palevioletred;
+padding: 5px;
+margin: 0px 0px 5px 20px;
+
+}
+
+
+.nested-in-ol li {
+background: rosybrown;
+padding: 5px;
+margin-left: 0px;
+}

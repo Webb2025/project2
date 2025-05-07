@@ -1,0 +1,116 @@
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(26, 13, 92);
+    justify-content: space-around;
+    height: 500px;
+ }
+h1 {
+    text-align:center;
+    background: #CF9B57;
+background: linear-gradient(to right, #CF9B57 0%, #FF7810 50%, #CFBC13 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+}
+
+.flexcontainer > div {
+    
+    width: 200px;
+    height:150px;
+    margin: 10px;
+    text-align:center;
+    font-size: 10px;
+    color: rgba(119, 111, 231, 0.986);
+    
+   
+}
+
+#div1 {
+    background-color: aquamarine;
+    color: azure;
+    background-image:url(gul.bukett.jpg);
+    align-self: flex-end;
+    background-size: 150px 150px;
+   
+}
+#div2 {
+    background-color: aqua;
+    color: aliceblue;
+    background-image:url(lila.bkett.jpg);
+    align-self: flex-end;
+    background-size: 150px 150px;
+
+}
+
+#div3 {
+    background-color: bisque;
+    color: black;
+    align-self: flex-end;
+    background-image:url(orange.bukett.jpg);
+background-size: 150px 150px;
+}
+#div4 {
+    background-color: beige;
+    color: blueviolet;
+    background-image:url(Röd.bukett.jpg);
+    align-self: flex-end;
+    background-size: 150px 150px;
+    
+}
+#div5 {
+    background-color: blanchedalmond;
+    color: aquamarine;
+    background-image:url(roser.bukett.jpeg);
+    background-size: 150px 150px;
+    
+}
+#div6 {
+    background-color: cornflowerblue;
+    color: hotpink;
+    align-self: flex-end;
+    background-image:url(blå.bket.avif);
+    background-size: 150px 150px;
+}
+ 
+#div7 {
+    background-color: azure;
+    color: beige;
+    background-image:url(shoklad.bukett.jpg);
+    background-size: 150px 150px;
+    
+}
+
+
+.flexcontainer3 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: blueviolet;
+    border: solid 10px red;
+    height: 500px;
+}
+#left-div{ 
+height:300xp;
+width:300xp;
+border: solid 5px black;
+}
+
+#right-div{ 
+    height:300px;
+    width:300px;
+    border: solid 5px black;
+    background-image:url(blomma.png);
+    }
+#img1{
+
+    height:300px;
+    width:300px;
+}
+
+#para1{
+   font-size: large;
+   color: chartreuse; 
+}
