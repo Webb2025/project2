@@ -124,3 +124,39 @@ footer {
     padding: 10px;
     font-size: 1em;
 }
+.navbar ul {
+  list-style-type: none;
+  background-color: #f09f08;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #f09f08;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #ed9857;
+}
