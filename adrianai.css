@@ -1,42 +1,86 @@
-.navbar ul {
-    list-style-type: none;
-    background-color: #f09f08;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff6e6;
+    color: #333;
   }
-  
+ 
   .navbar {
     background-color: #f09f08;
-    text-align: center;
     padding: 10px 0;
+    text-align: center;
   }
-  
+ 
   .navbar ul {
-    display: inline-block;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     list-style-type: none;
   }
-  
+ 
   .navbar li {
     display: inline;
     margin: 0 10px;
   }
-  
+ 
   .navbar a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
   }
-  
+ 
   .navbar a:hover {
     background-color: #ed9857;
   }
-  #div12 { 
-    
-    font-size: 150%;
-  
-  
+ 
+  .header {
+    text-align: center;
+    padding: 30px 20px;
   }
+ 
+  .section {
+    text-align: center;
+    padding: 20px;
+  }
+ 
+  .Cultures {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+ 
+  .Culture {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+ 
+  
+  
+ 
+  .Culture img {
+    width: 100%;
+    border-radius: 15px;
+  }
+ 
+  .Culture button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #f09f08;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+ 
+  .Culture button:hover {
+    background-color: #ed9857;
+  }
+ 
+ 
