@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #fff6e6;
-    color: #333;
+    background-color:#fcf4de;
+    color:#f09f08;
   }
  
   .navbar {
@@ -35,12 +35,12 @@ body {
  
   .header {
     text-align: center;
-    padding: 30px 20px;
+
   }
  
   .section {
     text-align: center;
-    padding: 20px;
+   
   }
  
   .Cultures {
@@ -51,7 +51,7 @@ body {
   }
  
   .Culture {
-    background-color: #fff;
+    background-color: #f9f3e3;
     border-radius: 20px;
     padding: 15px;
     text-align: center;
@@ -65,18 +65,19 @@ body {
  
   .Culture img {
     width: 100%;
+    border-radius: 10px;
    
   }
  
   .Culture button {
     margin-top: 10px;
-    padding: 10px 15px;
+    padding: 10px 30px;
     background-color: #f09f08;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-weight: bold;
+  
   }
  
   .Culture button:hover {
