@@ -41,23 +41,180 @@
   text-align: center;
   flex-direction: column;
 }
-.Grid-container {
-  display: grid;
-  grid-template-columns: repeat(14,1fr);
-  grid-template-rows: repeat(14,1fr);
+.section-divider {
+  border: none;
+  height: 4px;
+  background-color: #ed9857;
+  width: 90%;
+  margin: 20px auto;
+}
+.Flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 3px;
+  background-color: #f6faf4;
 }
-.vegan {
-  background-color: rgba(22, 142, 24, 0.565);
-}
-#vegan-item1 {
-  background-color: white;
-}
-#vegan-item2 {
-  grid-column: 7 / 14;
-  grid-row: 2 / 7;
+#vegan-Ad {
+  border: solid black 2px;
+  margin-top: 20px;
+  height: 300px;
+  width: 500px;
 }
 #Vegan-poster {
   height: 100%;
+  width: 100%;
+}
+#vegan {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 60px;
+  margin-top: 30px;
+}
+#Vegan-item1 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Vegan-item1:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Tomato-Caprese {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+#Vegan-item2 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Vegan-item2:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Vegan-Burger {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+#Vegan-item3 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Vegan-item3:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Vegan-Chicken {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+.Vegan-Text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #ed9857;
+}
+.Flex-container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3px;
+  background-color: #ffedd1;
+}
+#Lactose-free-poster {
+  margin-top: 20px;
+  height: 400px;
+  width: 700px;
+}
+#Lactose-poster {
+  height: 100%;
+  width: 100%;
+}
+#Lactose-free {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+#Lactose-item1 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Lactose-item1:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Soya-Milk {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+#Lactose-item2 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Lactose-item2:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Tofu {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+#Lactose-item3 {
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  transition: background-color 0.5s ease-in-out, transform 0.3s;
+}
+#Lactose-item3:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+}
+#Free-cheese {
+  height: 300px;
+  width: 350px;
+  border-bottom: solid #ed9857 7px;
+  border-radius: 20px;
+}
+.Lactose-Text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #ed9857;
+}
+footer {
+  background-color: #a04000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
   width: 100%;
 }
