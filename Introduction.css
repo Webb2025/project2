@@ -110,3 +110,10 @@
   width: 90%;
   margin: 20px auto;
 }
+footer {
+  background-color: #a04000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
