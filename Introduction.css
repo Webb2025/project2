@@ -1,0 +1,82 @@
+.navbar ul {
+    list-style-type: none;
+    background-color: #f09f08;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background-color: #f09f08;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ed9857;
+  }
+#Restaurant-div {
+    width: auto;
+    height: 700px;
+}
+#Restaurant {
+    height: 100%;
+    width: 100%;
+}
+#About-us {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  min-height: 700px;
+}
+#Background-Image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px; 
+  object-fit: cover;
+  z-index: 0;
+}
+#Intro {
+  justify-content: start;
+  flex-wrap: wrap;
+  height: 700px;
+  width: 700px;
+  padding-top: 150px;
+}
+#Intro-Head {
+  flex-direction: column;
+  text-align: center;
+}
+#Intro-Text {
+  text-align: center;
+}
+#Syrup-Div {
+  height: 500px;
+  width: 500px;
+  padding-top: 50px;
+}
+#syrup {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
