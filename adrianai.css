@@ -1,87 +1,91 @@
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color:#fcf4de;
-    color:#f09f08;
-  }
- 
-  .navbar {
-    background-color: #f09f08;
-    padding: 10px 0;
-    text-align: center;
-  }
- 
-  .navbar ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-  }
- 
-  .navbar li {
-    display: inline;
-    margin: 0 10px;
-  }
- 
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-  }
- 
-  .navbar a:hover {
-    background-color: #ed9857;
-  }
- 
-  .header {
-    text-align: center;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color:#fcf4de;
+  color:#f09f08;
+}
 
-  }
+.navbar {
+  background-color: #f09f08;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #ed9857;
+}
+
+.header {
+  text-align: center;
+
+}
+
+.section {
+  text-align: center;
  
-  .section {
-    text-align: center;
-   
-  }
- 
-  .Cultures {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-  }
- 
-  .Culture {
-    background-color: #f9f3e3;
-    border-radius: 20px;
-    padding: 15px;
-    text-align: center;
-    
-  }
- 
+}
+
+.Cultures {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.Culture {
+  background-color: #f9f3e3;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
   
-  .Culture:hover {
-    transform: translateY(-5px);
-     }
+}
+footer {
+  background-color: #a04000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+.Culture:hover {
+  transform: translateY(-5px);
+   }
+
+.Culture img {
+  width: 100%;
+  border-radius: 10px;
  
-  .Culture img {
-    width: 100%;
-    border-radius: 10px;
-   
-  }
- 
-  .Culture button {
-    margin-top: 10px;
-    padding: 10px 30px;
-    background-color: #f09f08;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-  
-  }
- 
-  .Culture button:hover {
-    background-color: #ed9857;
-  }
- 
- 
+}
+
+.Culture button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #f09f08;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.Culture button:hover {
+  background-color: #ed9857;
+}
+
