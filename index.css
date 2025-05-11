@@ -28,7 +28,7 @@ background-clip: text;
 
 
 #div1 {
-  background-color: #f09f08;
+  background-color: rgb(255, 139, 56);
   grid-column: 1 / 7;
   grid-row: 1 / 2;
   display: flex;
@@ -121,7 +121,7 @@ background-clip: text;
 
 
 #div8 {
-  background-color:#f09f08;
+  background-color: rgb(255, 139, 56);
   grid-column: 1 / 7;
   grid-row: 6 / 9;
  
@@ -291,5 +291,11 @@ h1 {
   background-color: #ed9857;
  }
 
-
+ footer {
+  background-color: #a04000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
  
