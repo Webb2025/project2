@@ -34,32 +34,27 @@
   .navbar a:hover {
     background-color: #ed9857;
   }
-#Restaurant-div {
+#Welcome-div {
     width: auto;
-    height: 700px;
+    height: auto;
 }
-#Restaurant {
+#Welcome {
     height: 100%;
     width: 100%;
 }
 #About-us {
   display: flex;
+  flex-direction: column;
   gap: 30px;
-  position: relative;
   min-height: 700px;
 }
-#Background-Image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px; 
-  object-fit: cover;
-  z-index: 0;
+#Top-Section {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
 }
 #Intro {
   justify-content: start;
-  flex-wrap: wrap;
-  height: 700px;
   width: 700px;
   padding-top: 150px;
 }
@@ -79,4 +74,39 @@
   height: 100%;
   width: 100%;
   border-radius: 20px;
+}
+#body {
+  background-color: #ffe3c5;
+}
+#Ending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+#Ending-Head {
+  flex-direction: column;
+  text-align: center;
+}
+#Ending-Text {
+  text-align: center;
+}
+#Dinner {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+#Dinner-Div {
+  margin-left: 350px;
+  height: 500px;
+  width: 600px;
+  padding-top: 50px;
+}
+.section-divider {
+  border: none;
+  height: 4px;
+  background-color: #ed9857;
+  width: 90%;
+  margin: 20px auto;
 }
