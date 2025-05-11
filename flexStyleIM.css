@@ -1,5 +1,6 @@
+
 body {
-    background-color: #ffe5b4;
+    background-color: #ffe5b4; 
     font-family: 'Arial', sans-serif;
     color: #4a3f35;
     margin: 0;
@@ -68,7 +69,7 @@ p {
 .food-image {
     width: 100%;
     height: auto;
-    border-bottom: 5px solid #e67e22;
+    border-bottom: 5px solid white;
 }
 
 .food-description {
@@ -115,8 +116,21 @@ p {
     height: 315px;
     border-radius: 10px;
 }
-
-
+.button {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+.button2 {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;    
+}
 footer {
     background-color: #a04000;
     color: white;
@@ -125,38 +139,38 @@ footer {
     font-size: 1em;
 }
 .navbar ul {
-  list-style-type: none;
-  background-color: #f09f08;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-}
-
-.navbar {
-  background-color: #f09f08;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.navbar ul {
-  display: inline-block;
-  padding: 0;
-  margin: 0 auto;
-  list-style-type: none;
-}
-
-.navbar li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-}
-
-.navbar a:hover {
-  background-color: #ed9857;
-}
+    list-style-type: none;
+    background-color: #f09f08;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background-color: #f09f08;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ed9857;
+  }
